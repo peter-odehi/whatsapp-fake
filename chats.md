@@ -34,34 +34,33 @@ chats:
     name: Joe Hiking
     avatar: avatars/joe-hiking.jpg
     online: true
-    lastPreview: "Way slimmer now"
-    lastTime: "20:27"
+    lastPreview: "Will look for train tickets leaving Friday night"
+    lastTime: "13:30"
 ---
 
 # joe-hiking
 
-[them 11:28]
-impingement and nerve
-
-[me 13:04 status=read replyFrom="Joe Hiking" replyBody="Solo hike / climb ?"]
-No with the missus for a long weekend
-
-[me 13:04 status=read replyFrom="Joe Hiking" replyBody="With the family. Family activities."]
-Excellent man, have a good time
-
-[me 13:04 status=read replyFrom="Joe Hiking" replyBody="I think need few weeks to calm the impingement and nerve"]
-Yeah that sucks man, I hope you get better soon
-
 --- Monday ---
 
-[status 19:42 from="You" duration="0:16" caption="Nice day for a bike ride"]
-Tom cruise riding
+[them 13:15]
+bro, thinking of going to Penang on Friday instead of Saturday
 
-[me 20:03 status=read]
-Ha fat Tom Cruise
+[me 13:18 status=read]
+I'm working on Friday man. I can go if later on in the evening
 
-[them 20:27]
-Way slimmer now
+[them 17:15]
+later will be heavy traffic. will confirm.
+
+--- Today ---
+
+[them 11:00]
+want to head off Friday morning to avoid the holiday weekend traffic?
+
+[me 13:30 status=read]
+I can't man, I need to work that day. Already used a lot of my leave for this year.
+
+[me 13:30 status=delivered]
+I will look for train tickets leaving Friday night. Then I meet you up there.
 
 # azlan-amran
 
