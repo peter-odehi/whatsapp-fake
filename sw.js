@@ -1,6 +1,6 @@
 // Bump VERSION when shell files (index.html, app.js, styles.css, icons, manifest) change.
 // chats.md and avatars are network-first and bypass the cache version.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = `wa-fake-${VERSION}`;
 const SHELL = [
   './',
@@ -15,6 +15,8 @@ const SHELL = [
   './assets/icon-192.png',
   './assets/icon-512.png',
   './assets/icon-maskable-512.png',
+  './assets/fonts/roboto-latin.woff2',
+  './assets/fonts/roboto-latin-ext.woff2',
 ];
 
 self.addEventListener('install', event => {
