@@ -2,10 +2,12 @@
 chats:
   - id: azlan-amran
     name: Azlan Amran
+    avatar: avatars/azlan-amran.jpg
     lastPreview: 'You reacted 👍 to "Will drop in 15"'
     lastTime: "11:13"
   - id: aa
     name: AA
+    avatar: avatars/aa.jpg
     group: true
     muted: true
     lastPreview: "Azlan: @Raty Hussain , does PMX..."
@@ -18,16 +20,19 @@ chats:
     lastTime: "10:32"
   - id: malaysia-other-fam
     name: Malaysia Other Fam
+    avatar: avatars/malaysia-other-fam.jpg
     group: true
     lastPreview: "Eve: And they could have spent it..."
     lastTime: "08:16"
   - id: fuckin-olympics
     name: Fuckin Olympics
+    avatar: avatars/fuckin-olympics.jpg
     group: true
     lastPreview: "Geoff: It's been known to happen..."
     lastTime: "08:13"
   - id: joe-hiking
     name: Joe Hiking
+    avatar: avatars/joe-hiking.jpg
     online: true
     lastPreview: "Way slimmer now"
     lastTime: "20:27"
