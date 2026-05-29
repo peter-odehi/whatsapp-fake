@@ -1,5 +1,11 @@
 ---
 chats:
+  - id: joe-hiking
+    name: Joe Hiking
+    avatar: avatars/joe-hiking.jpg
+    online: true
+    lastPreview: "Will look for train tickets leaving Friday night"
+    lastTime: "13:30"
   - id: azlan-amran
     name: Azlan Amran
     avatar: avatars/azlan-amran.jpg
@@ -30,12 +36,6 @@ chats:
     group: true
     lastPreview: "Geoff: It's been known to happen..."
     lastTime: "08:13"
-  - id: joe-hiking
-    name: Joe Hiking
-    avatar: avatars/joe-hiking.jpg
-    online: true
-    lastPreview: "Will look for train tickets leaving Friday night"
-    lastTime: "13:30"
 ---
 
 # joe-hiking
@@ -51,7 +51,7 @@ I'm working on Friday man. I can go if later on in the evening
 [them 17:15]
 later will be heavy traffic. will confirm.
 
---- Today ---
+--- Wednesday ---
 
 [them 11:00]
 want to head off Friday morning to avoid the holiday weekend traffic?
@@ -61,6 +61,17 @@ I can't man, I need to work that day. Already used a lot of my leave for this ye
 
 [me 13:30 status=delivered]
 I will look for train tickets leaving Friday night. Then I meet you up there.
+
+[them 15:00]
+ok bro
+
+--- Thursday ---
+
+[them 08:00 status=read]
+traffic is not too bad this morning. Quite easy to get out of KL.
+
+[me 10:15]
+OK awesome. My train gets in at 11:30 so I'll see you at the hotel.
 
 # azlan-amran
 
