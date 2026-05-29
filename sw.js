@@ -1,6 +1,6 @@
 // Bump VERSION when shell files (index.html, app.js, styles.css, icons, manifest) change.
 // chats.md and avatars are network-first and bypass the cache version.
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = `wa-fake-${VERSION}`;
 const SHELL = [
   './',

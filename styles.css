@@ -1,36 +1,37 @@
 :root {
-  --bg-primary: #0B141A;
-  --bg-header: #1F2C34;
-  --bg-search: #1F2C34;
-  --bg-bubble-in: #1F2C34;
-  --bg-bubble-out: #005C4B;
-  --bg-divider-pill: #1D282F;
-  --bg-quote-self: #025144;
-  --bg-quote-other: #1A2C35;
-  --bg-status-card: #1D282F;
-  --bg-chip-selected: #103629;
+  --bg-primary: #0B1014;
+  --bg-header: #0B1014;
+  --bg-search: #171E21;
+  --bg-bubble-in: #1B2225;
+  --bg-bubble-out: #144D37;
+  --bg-divider-pill: #14191D;
+  --bg-quote-self: #0F3F2D;
+  --bg-quote-other: #202A2D;
+  --bg-status-card: #1B2225;
+  --bg-chip-selected: #0F3428;
   --bg-chip-unselected: transparent;
-  --bg-tab-selected: #103629;
-  --bg-fab: #00A884;
-  --bg-mic: #00A884;
-  --border-chip: #2A3942;
+  --bg-tab-selected: #0F3428;
+  --bg-input-pill: #171E21;
+  --bg-fab: #21C163;
+  --bg-mic: #21C163;
+  --border-chip: #283236;
   --text-primary: #E9EDEF;
-  --text-secondary: #8696A0;
+  --text-secondary: #8D9598;
   --text-on-bubble: #E9EDEF;
-  --text-time: #8696A0;
-  --text-time-out: #93B8B0;
-  --text-chip-selected: #00A884;
-  --text-chip-unselected: #8696A0;
-  --accent-green: #00A884;
-  --accent-green-bright: #06CF9C;
-  --tick-default: #8696A0;
-  --tick-read: #53BDEB;
+  --text-time: #9AA3A7;
+  --text-time-out: #A4BCAE;
+  --text-chip-selected: #21C163;
+  --text-chip-unselected: #8D9598;
+  --accent-green: #21C163;
+  --accent-green-bright: #21C163;
+  --tick-default: #8D9598;
+  --tick-read: #8FB6A7;
   --shadow-fab: 0 2px 6px rgba(0,0,0,0.5);
   --bubble-radius: 7.5px;
   --row-height: 72px;
   --header-height: 56px;
   --bottom-nav-height: 56px;
-  --font: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font: system-ui, "OPlusSans3", "Oplus Sans", "OPPO Sans", "OnePlus Sans", "ColorOS Sans", sans-serif;
 }
 
 @font-face {
@@ -266,7 +267,7 @@ a { color: inherit; }
 .conv-header .peer .avatar { width: 38px; height: 38px; border-radius: 50%; overflow: hidden; flex: 0 0 auto; background: #444; }
 .conv-header .peer .avatar img { width: 100%; height: 100%; object-fit: cover; }
 .conv-header .peer .meta { display: flex; flex-direction: column; min-width: 0; }
-.conv-header .peer .name { font-size: 16px; font-weight: 500; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.conv-header .peer .name { font-size: 17px; font-weight: 400; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .conv-header .peer .status { font-size: 12px; color: var(--text-secondary); }
 .conv-header .actions { display: flex; align-items: center; gap: 8px; padding-right: 6px; }
 .conv-header .actions .icon-btn { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }
@@ -302,6 +303,7 @@ a { color: inherit; }
   border-radius: var(--bubble-radius);
   position: relative;
   font-size: 14.5px;
+  font-weight: 400;
   color: var(--text-on-bubble);
   word-wrap: break-word;
   overflow-wrap: anywhere;
@@ -337,7 +339,7 @@ a { color: inherit; }
 
 .bubble .reply {
   display: block;
-  background: rgba(0,0,0,0.18);
+  background: var(--bg-quote-other);
   border-left: 4px solid var(--accent-green-bright);
   border-radius: 5px;
   padding: 4px 8px;
@@ -346,6 +348,7 @@ a { color: inherit; }
   line-height: 1.3;
   cursor: default;
 }
+.bubble.out .reply { background: var(--bg-quote-self); }
 .bubble .reply .reply-from {
   font-weight: 600;
   font-size: 13px;
@@ -405,7 +408,7 @@ a { color: inherit; }
 .input-bar .pill {
   flex: 1;
   height: 44px;
-  background: var(--bg-bubble-in);
+  background: var(--bg-input-pill);
   border-radius: 24px;
   display: flex;
   align-items: center;
