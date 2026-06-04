@@ -273,6 +273,7 @@
         <div class="label">Archived</div>
       </div>
       <div class="chat-list">${rows}</div>
+      <div class="meta-ai-float">${svgIcon('meta-ai')}</div>
       <div class="fab">${svgIcon('fab-plus')}</div>
       <div class="bottom-nav">
         <div class="tab selected"><div class="icon-pill">${svgIcon('tab-chats')}</div><div class="label">Chats</div></div>

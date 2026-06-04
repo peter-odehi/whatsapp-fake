@@ -102,9 +102,9 @@ a { color: inherit; }
 .list-header .actions {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 24px;
 }
-.list-header .actions .icon { width: 22px; height: 22px; color: var(--text-primary); }
+.list-header .actions .icon { width: 26px; height: 26px; color: var(--text-primary); }
 
 .search-wrap { padding: 4px 12px 8px; }
 .search-bar {
@@ -117,7 +117,7 @@ a { color: inherit; }
   gap: 16px;
   color: var(--text-secondary);
 }
-.search-bar .icon { width: 18px; height: 18px; color: var(--text-secondary); }
+.search-bar .icon { width: 24px; height: 24px; color: var(--text-secondary); }
 .search-bar .placeholder { font-size: 15px; }
 
 .chips {
@@ -157,7 +157,7 @@ a { color: inherit; }
   display: flex;
   justify-content: center;
 }
-.archived-row .icon { width: 22px; height: 22px; color: var(--text-secondary); }
+.archived-row .icon { width: 24px; height: 24px; color: var(--text-secondary); }
 .archived-row .label { font-size: 15px; color: var(--text-secondary); }
 
 .chat-list { flex: 1; overflow-y: auto; padding-bottom: calc(var(--bottom-nav-height) + 8px); }
@@ -194,7 +194,22 @@ a { color: inherit; }
   justify-content: center;
   box-shadow: var(--shadow-fab);
 }
-.fab .icon { width: 24px; height: 24px; color: #fff; }
+.fab .icon { width: 28px; height: 28px; color: #0B1014; }
+
+.meta-ai-float {
+  position: absolute;
+  right: 28px;
+  bottom: calc(var(--bottom-nav-height) + 92px);
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: var(--bg-bubble-in);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-fab);
+}
+.meta-ai-float .icon { width: 34px; height: 34px; }
 
 .bottom-nav {
   height: var(--bottom-nav-height);
@@ -226,7 +241,7 @@ a { color: inherit; }
 .bottom-nav .tab.selected .icon-pill {
   background: var(--bg-tab-selected);
 }
-.bottom-nav .tab .icon { width: 22px; height: 22px; color: var(--text-secondary); }
+.bottom-nav .tab .icon { width: 26px; height: 26px; color: var(--text-secondary); }
 .bottom-nav .tab.selected .icon { color: var(--accent-green); }
 .bottom-nav .tab .label { font-size: 12px; }
 .bottom-nav .tab.selected .label { color: var(--text-primary); font-weight: 600; }
