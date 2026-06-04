@@ -73,6 +73,53 @@ traffic is not too bad this morning. Quite easy to get out of KL.
 [me 10:15]
 OK awesome. My train gets in at 11:30 so I'll see you at the hotel.
 
+--- Friday ---
+
+[me 20:00]
+On the train now man, will let you know when I get there.
+
+[them 20:34]
+ok
+
+[me 23:49]
+Mate just arrived and in Grab to the hotel. Wrecked. Will catch you in the morning.
+
+[them 23:55]
+ok bro
+
+--- Saturday ---
+
+[me 09:00]
+Just awake man, want to grab breakfast?
+
+[them 09:06]
+sure. see you downstair
+
+[me 09:08]
+OK give me 15 mins to shower up
+
+--- Sunday ---
+
+[me 07:45]
+Ready to go dude
+
+[them 07:46]
+cool, see you at the car park
+
+--- Monday ---
+
+[me 10:00]
+Want to go get breakfast at that Urban place I was telling you about. Very porky.
+
+[them 10:04]
+sure bro
+
+[me 15:00]
+Taking Grab to Butterworth man, thanks for a cool weekend!
+
+[them 15:03]
+Thanks buddy, was a real good one
+
 # azlan-amran
 
 [them 11:13 reactions="👍"]
