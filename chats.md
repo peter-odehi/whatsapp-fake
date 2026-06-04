@@ -4,7 +4,7 @@ chats:
     name: Joe Hiking
     avatar: avatars/joe-hiking.jpg
     online: true
-    lastPreview: "Thanks buddy, was a real good one"
+    lastPreview: "sure bro"
     lastTime: "13:30"
   - id: azlan-amran
     name: Azlan Amran
@@ -84,6 +84,9 @@ ok
 [me 14:20 image="assets/penang/Train-1.jpeg" reactions="😂"]
 Getting some work done on the train 
 
+[them 15:00]
+haha
+
 [me 23:49]
 Mate just arrived and in Grab to the hotel. Wrecked. Will catch you in the morning.
 
@@ -120,8 +123,18 @@ sure bro
 [me 15:00]
 Taking Grab to Butterworth man, thanks for a cool weekend!
 
-[them 15:03 reactions="👍"]
+[them 15:03]
 Thanks buddy, was a real good one
+
+[me 15:04 image="assets/penang/Breakfast-1.jpeg"]
+
+[me 15:05 image="assets/penang/Jetty-1.jpeg" reactions="👍"]
+
+[them 15:06 image="assets/penang/Lighthouse-1.jpeg"]
+
+[them 15:07 image="assets/penang/Beach-1.jpeg"]
+
+[them 15:08 image="assets/penang/Jetty-2.jpeg" reactions="👍"]
 
 --- Tuesday ---
 [me 12:00]
