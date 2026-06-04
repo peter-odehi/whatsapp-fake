@@ -325,6 +325,7 @@ a { color: inherit; }
   overflow: hidden;
   border-radius: 6px;
   background: rgba(0,0,0,0.18);
+  position: relative;
 }
 .bubble.has-media .message-image {
   display: block;
@@ -332,6 +333,16 @@ a { color: inherit; }
   max-height: 320px;
   object-fit: cover;
 }
+.bubble.has-media .media-frame.missing-image {
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+.bubble.has-media .media-frame.missing-image .message-image { display: none; }
+.bubble.has-media .media-frame.missing-image::after { content: "Image unavailable"; }
 .bubble.has-media .body {
   display: block;
   padding: 5px 5px 0;

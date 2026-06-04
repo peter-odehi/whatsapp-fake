@@ -324,7 +324,7 @@
     const meta = (metaTime || m.status) ? `<span class="meta">${metaTime}${metaSep}${renderTicks(m.status)}</span>` : '';
     const imageBlock = m.image ? `
         <div class="media-frame">
-          <img class="message-image" src="${escapeHtml(m.image)}" alt="${escapeHtml(m.alt || m.body || 'Image')}" loading="lazy" decoding="async">
+          <img class="message-image" src="${escapeHtml(m.image)}" alt="${escapeHtml(m.alt || m.body || 'Image')}" loading="eager" decoding="async" onerror="this.parentElement.classList.add('missing-image')">
         </div>` : '';
     const bodyBlock = m.body ? `<span class="body">${inlineMd(m.body)}</span>` : (!m.image ? '<span class="body"></span>' : '');
     return `
