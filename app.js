@@ -213,8 +213,9 @@
       const m = list[i];
       if (m.type === 'text') {
         const body = (m.body || '').split('\n')[0];
-        if (chat.group && m.who !== 'me' && m.who !== 'them') return `${m.who}: ${body}`;
-        return body;
+        const preview = body || (m.image ? 'Photo' : '');
+        if (chat.group && m.who !== 'me' && m.who !== 'them') return `${m.who}: ${preview}`;
+        return preview;
       }
       if (m.type === 'status') return m.body || m.caption || '';
     }
@@ -321,11 +322,17 @@
     const metaTime = m.time ? escapeHtml(m.time) : '';
     const metaSep = (m.time && m.status) ? ' ' : '';
     const meta = (metaTime || m.status) ? `<span class="meta">${metaTime}${metaSep}${renderTicks(m.status)}</span>` : '';
+    const imageBlock = m.image ? `
+        <div class="media-frame">
+          <img class="message-image" src="${escapeHtml(m.image)}" alt="${escapeHtml(m.alt || m.body || 'Image')}" loading="lazy" decoding="async">
+        </div>` : '';
+    const bodyBlock = m.body ? `<span class="body">${inlineMd(m.body)}</span>` : (!m.image ? '<span class="body"></span>' : '');
     return `
-      <div class="bubble ${isOut ? 'out' : 'in'}">
+      <div class="bubble ${isOut ? 'out' : 'in'}${m.image ? ' has-media' : ''}">
         ${senderBlock}
         ${replyBlock}
-        <span class="body">${inlineMd(m.body || '')}</span>
+        ${imageBlock}
+        ${bodyBlock}
         ${meta}
         ${reactionsBlock}
       </div>`;

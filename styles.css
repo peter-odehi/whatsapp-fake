@@ -315,6 +315,31 @@ a { color: inherit; }
 
 .bubble .body { display: inline; }
 
+.bubble.has-media {
+  width: min(72vw, 320px);
+  max-width: 78%;
+  padding: 3px 3px 6px;
+}
+.bubble.has-media .media-frame {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  background: rgba(0,0,0,0.18);
+}
+.bubble.has-media .message-image {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+}
+.bubble.has-media .body {
+  display: block;
+  padding: 5px 5px 0;
+}
+.bubble.has-media .meta {
+  margin: 5px 5px -2px 8px;
+}
+
 .bubble .meta {
   float: right;
   font-size: 11px;

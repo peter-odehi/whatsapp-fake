@@ -4,7 +4,7 @@ chats:
     name: Joe Hiking
     avatar: avatars/joe-hiking.jpg
     online: true
-    lastPreview: "Will look for train tickets leaving Friday night"
+    lastPreview: "Thanks buddy, was a real good one"
     lastTime: "13:30"
   - id: azlan-amran
     name: Azlan Amran
@@ -70,7 +70,7 @@ ok bro
 [them 08:00 status=read]
 traffic is not too bad this morning. Quite easy to get out of KL.
 
-[me 10:15]
+[me 10:15 reactions="👍"]
 OK awesome. My train gets in at 11:30 so I'll see you at the hotel.
 
 --- Friday ---
@@ -80,6 +80,9 @@ On the train now man, will let you know when I get there.
 
 [them 20:34]
 ok
+
+[me 14:20 image="assets/penang/Train-1.jpeg" reactions="😂"]
+Getting some work done on the train 
 
 [me 23:49]
 Mate just arrived and in Grab to the hotel. Wrecked. Will catch you in the morning.
@@ -95,7 +98,7 @@ Just awake man, want to grab breakfast?
 [them 09:06]
 sure. see you downstair
 
-[me 09:08]
+[me 09:08 reactions="👍"]
 OK give me 15 mins to shower up
 
 --- Sunday ---
@@ -117,8 +120,21 @@ sure bro
 [me 15:00]
 Taking Grab to Butterworth man, thanks for a cool weekend!
 
-[them 15:03]
+[them 15:03 reactions="👍"]
 Thanks buddy, was a real good one
+
+--- Tuesday ---
+[me 12:00]
+Dude where is the pickup for the race kit for this fun run? Damansara?
+
+[them 13:00]
+yeah man
+
+[me 13:04]
+Would you mind picking mine up for me? That's fucking miles from my house
+
+[them 14:09]
+sure bro
 
 # azlan-amran
 
