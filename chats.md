@@ -149,6 +149,28 @@ Would you mind picking mine up for me? That's fucking miles from my house
 [them 14:09]
 sure bro
 
+--- Saturday ---
+
+[them 15:09]
+on on tomorrow bro
+
+[me 14:10]
+Yeah mate. Feeling slightly rough today. Don't know why. Slight fever coming I think.
+
+[them 15:05]
+are you ok bro?
+
+
+[me 15:10]
+Yeah should be fine
+
+--- Sunday ---
+[me 05:09 reactions="👍"]
+Bro I'm up and getting ready. See you there.
+
+[them 05:10]
+see you at the start point
+
 # azlan-amran
 
 [them 11:13 reactions="👍"]
